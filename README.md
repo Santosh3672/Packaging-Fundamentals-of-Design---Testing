@@ -2,14 +2,14 @@
 VSD Workshop on Packaging fundamentals on design and testing with labs based on Ansys 20-29June 2025
 
 ## Contents
-### [Packaging Evolution: From Basics to 3D Integration:](#head1234)
-#### Introduction to Packaging and its Requirement
-#### Components of Package and its significance in semiconductor cycle
-#### Overview of different types of Packaging technologies
-#### Comparative analysis and selecting the righ Package type
+### [Packaging Evolution: From Basics to 3D Integration:](#head1_1)
+#### [Introduction to Packaging and its Requirement](#head1_2)
+#### [Components of Package and its significance in semiconductor cycle](#head1_3)
+#### [Overview of different types of Packaging technologies](#head1_4)
+#### [Comparative analysis and selecting the righ Package type](#head1_5)
 
-## Packaging Evolution: From Basics to 3D Integration:
-### <a name="head1234"></a>Introduction to Packaging and its Requirement
+## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
+### <a name="head1_2"></a>Introduction to Packaging and its Requirement
 Packaging is the process of transforming bare semiconductor dies—fabricated on silicon wafers—into robust, functional components that can be mounted onto printed circuit boards (PCBs). It serves as a critical bridge between the microscopic world of silicon and the macroscopic realities of real-world electronics.
 
 Need for Semiconductor Packaging
@@ -29,7 +29,7 @@ Techniques used include:
    - Wire bonding  
    - Flip-chip  
 
-### Components of Package and its significance in semiconductor cycle
+### <a name="head1_3"></a>Components of Package and its significance in semiconductor cycle
 
 A semiconductor packages contain following elements:
 
@@ -84,7 +84,7 @@ Carrier: Substrate at packaging level
 
 Die-to-carrier interconnect: Die attach
 
-### Overview of different types of Packaging technologies
+### <a name="head1_4"></a>Overview of different types of Packaging technologies
 
 
 **1. Through-Hole Mounting (THM)**
@@ -160,7 +160,7 @@ Image here
 Fig: Summary of different packages
 
 
-### Comparative analysis and selecting the righ Package type
+### <a name="head1_5"></a>Comparative analysis and selecting the righ Package type
 
 Image here
 
