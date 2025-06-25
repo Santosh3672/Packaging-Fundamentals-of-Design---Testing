@@ -43,7 +43,7 @@ A semiconductor packages contain following elements:
 
 **Traces** – Embedded metal lines within the substrate that carry electrical signals between the wire bonds and the external interface of the package. 
 
-Image here
+(https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a2.png)
 
 Fig: Components a wire bond BGA package
 
