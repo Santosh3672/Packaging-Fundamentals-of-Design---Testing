@@ -66,8 +66,7 @@ Fig: Packaging & testing in Semiconductor flow
 
 **Key Factors in Selecting the Right Semiconductor Package**:
 
-    1. **I/O Requirements (Pin Count)**:
-The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
+    1. **I/O Requirements (Pin Count)**:The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
 
     2. **Thermal Performance**:
 Packages must dissipate heat effectively to maintain device reliability. Materials like ceramics or metal-core substrates are preferred for high-power applications. 
