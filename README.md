@@ -63,23 +63,17 @@ Fig: Packaging & testing in Semiconductor flow
 
 **Key Factors in Selecting the Right Semiconductor Package**:
 
-   1. **I/O Requirements (Pin Count)**:The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
+   1. **I/O Requirements (Pin Count)**: The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
 
-   2. **Thermal Performance**:
-Packages must dissipate heat effectively to maintain device reliability. Materials like ceramics or metal-core substrates are preferred for high-power applications. 
+   2. **Thermal Performance**: Packages must dissipate heat effectively to maintain device reliability. Materials like ceramics or metal-core substrates are preferred for high-power applications. 
 
-   3. **Form Factor and Footprint**:
-The package size must align with the PCB layout and available space—especially critical in portable and miniaturized devices. 
+   3. **Form Factor and Footprint**: The package size must align with the PCB layout and available space—especially critical in portable and miniaturized devices. 
 
-   4. **Reliability and Mechanical Durability**:
-Influenced by environmental conditions and material choices—packages must withstand thermal cycling, vibration, moisture, and handling stress. 
+   4. **Reliability and Mechanical Durability**: Influenced by environmental conditions and material choices—packages must withstand thermal cycling, vibration, moisture, and handling stress. 
 
-   5. **Cost and Production Volume**:
-There's a trade-off between performance and cost. Simpler packages may be cost-effective for high-volume products, while advanced ones (e.g., flip-chip, fan-out) suit high-performance designs despite higher expense. 
+   5. **Cost and Production Volume**: There's a trade-off between performance and cost. Simpler packages may be cost-effective for high-volume products, while advanced ones (e.g., flip-chip, fan-out) suit high-performance designs despite higher expense. 
 
-   6. **End Application Requirements**:
-Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
-
+   6. **End Application Requirements**: Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
 
 
 Image here
@@ -97,34 +91,34 @@ Die-to-carrier interconnect: Die attach
 
 Packages with long pins that pass through holes on the PCB—ideal for prototyping and robust mechanical anchoring.
 
-    • **DIP (Dual In-line Package)**: Two parallel rows of pins; commonly used in ICs for prototyping. 
+   • **DIP (Dual In-line Package)**: Two parallel rows of pins; commonly used in ICs for prototyping. 
 
-    • **SIP (Single In-line Package)**: Pins arranged in a single row; used in resistor networks or small logic devices. 
+   • **SIP (Single In-line Package)**: Pins arranged in a single row; used in resistor networks or small logic devices. 
 
-    • **TO (Transistor Outline)**: Metal-can style for discrete transistors and power devices with excellent heat dissipation. 
+   • **TO (Transistor Outline)**: Metal-can style for discrete transistors and power devices with excellent heat dissipation. 
 
-    • **PGA (Pin Grid Array)**: Grid-style pin layout offering higher I/O density than DIP/SIP—used in CPUs and high-pin-count devices. 
+   • **PGA (Pin Grid Array)**: Grid-style pin layout offering higher I/O density than DIP/SIP—used in CPUs and high-pin-count devices. 
 
 
 **2. Surface Mount Technology (SMT)**
 
 Packages designed for direct mounting on PCB surfaces—key to miniaturization and automated assembly.
 
-    • **QFN (Quad Flat No-lead)**: Exposed thermal pad underneath; compact with excellent thermal/electrical performance. 
+   • **QFN (Quad Flat No-lead)**: Exposed thermal pad underneath; compact with excellent thermal/electrical performance. 
 
-    • **QFP (Quad Flat Package)**: Gull-wing leads on all four sides; used for microcontrollers and ASICs. 
+   • **QFP (Quad Flat Package)**: Gull-wing leads on all four sides; used for microcontrollers and ASICs. 
 
-    • **PBGA (Plastic Ball Grid Array)**: Solder balls arranged in a grid; provides high I/O density and better thermal management. 
+   • **PBGA (Plastic Ball Grid Array)**: Solder balls arranged in a grid; provides high I/O density and better thermal management. 
 
-    • **LGA (Land Grid Array)**: Similar to BGA, but uses flat contacts instead of balls; improves electrical performance. 
+   • **LGA (Land Grid Array)**: Similar to BGA, but uses flat contacts instead of balls; improves electrical performance. 
 
-    • **CSP (Chip Scale Package)**: Extremely compact—package size nearly matches die size; ideal for mobile and wearables. 
+   • **CSP (Chip Scale Package)**: Extremely compact—package size nearly matches die size; ideal for mobile and wearables. 
 
-    • **PoP (Package on Package)**: Vertical stacking of packages (e.g., logic + memory); space-saving for high-functionality systems. 
+   • **PoP (Package on Package)**: Vertical stacking of packages (e.g., logic + memory); space-saving for high-functionality systems. 
 
-    • **MCM (Multi-Chip Module)**: Multiple dies integrated in a single package for high performance and integration. 
+   • **MCM (Multi-Chip Module)**: Multiple dies integrated in a single package for high performance and integration. 
 
-    • **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
+   • **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
 
 Image here
 
@@ -135,15 +129,15 @@ Fig: Popular packaing techniques (TMM and SMT)
 
 For multiple die in a package we can also add layers between die and substrate:
 
-    • **2D**: Two dies are connected to substrate and are connected at ball-grid level, there is a longer connection between two dies but it is better than two separate packages.
+   • **2D**: Two dies are connected to substrate and are connected at ball-grid level, there is a longer connection between two dies but it is better than two separate packages.
 
-    • **2.1D**: A Redistribution layer (RDL) is put between Dies and substrate which is faster than 2D.
+   • **2.1D**: A Redistribution layer (RDL) is put between Dies and substrate which is faster than 2D.
 
-    • **2.3D**: An organic interposer that has multiple layers is used between die and substrate. Multiple layers of interposer is helpful when there is high IO density.
+   • **2.3D**: An organic interposer that has multiple layers is used between die and substrate. Multiple layers of interposer is helpful when there is high IO density.
 
-    • **2.5D**: Silicon interposer is used between die and substrate.
+   • **2.5D**: Silicon interposer is used between die and substrate.
 
-    • **3D**: Chip is put on top of another chip.
+   • **3D**: Chip is put on top of another chip.
 
 
 Image here
@@ -155,9 +149,9 @@ Fig: Cross sectional view of different packaging techniques
 
 Options for interconnections: 
 
-    • Wirebond: stiching interconnects
+   • **Wirebond**: stiching interconnects
 
-    • Bump/solder: Connecting the die and substrate directly through bump/solder
+   • **Bump/solder**: Connecting the die and substrate directly through bump/solder
 
 
 Image here
