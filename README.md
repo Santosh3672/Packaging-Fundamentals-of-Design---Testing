@@ -25,14 +25,13 @@ Need for Semiconductor Packaging
    - Printed Circuit Boards (PCBs)  
    - Other dies in multi-die systems (advanced configurations)  
    
-   Techniques used include:
+Techniques used include:
    - Wire bonding  
    - Flip-chip  
 
 ### Components of Package and its significance in semiconductor cycle
-Image here
 
-Wire bond BGA package example
+A semiconductor packages contain following elements:
 
 **Molding Compound** – An epoxy-based resin that encapsulates the die and wire bonds, offering mechanical protection and shielding against moisture, dust, and contaminants. 
 
@@ -44,10 +43,10 @@ Wire bond BGA package example
 
 **Traces** – Embedded metal lines within the substrate that carry electrical signals between the wire bonds and the external interface of the package. 
 
-
 Image here
 
-Packaging & testing in Semiconductor flow
+Fig: Components a wire bond BGA package
+
 
 Once silicon wafers are manufactured, individual dies are separated, packaged, and rigorously tested. This step prepares the chips for real-world integration by enabling thermal management, mechanical protection, and secure electrical interfacing with PCBs.
 
@@ -61,6 +60,9 @@ OSATs provide third-party services to fabless and IDM companies, handling wafer 
 IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
 
 Image here
+
+Fig: Packaging & testing in Semiconductor flow
+
 
 **Key Factors in Selecting the Right Semiconductor Package**:
 
@@ -82,16 +84,18 @@ There's a trade-off between performance and cost. Simpler packages may be cost-e
     6. **End Application Requirements**:
 Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
 
-Visual representation of the integration of Chip, Package and board
+
 
 Image here
+
+Fig: Visual representation of the integration of Chip, Package and board
 
 Carrier: Substrate at packaging level
 
 Die-to-carrier interconnect: Die attach
 
 ### Overview of different types of Packaging technologies
-Image here
+
 
 **1. Through-Hole Mounting (THM)**
 
@@ -126,6 +130,10 @@ Packages designed for direct mounting on PCB surfaces—key to miniaturization a
 
     • **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
 
+Image here
+
+Fig: Popular packaing techniques (TMM and SMT)
+
 
 **3.Advanced package substrate**:
 
@@ -144,6 +152,9 @@ For multiple die in a package we can also add layers between die and substrate:
 
 Image here
 
+Fig: Cross sectional view of different packaging techniques
+
+
 **Option for carrier**: Leadframe(DIP, QFN) . Laminate(multiple layers) , plastic, ceramic (high temp.), organic RDL, silicon, glass
 
 Options for interconnections: 
@@ -155,14 +166,14 @@ Options for interconnections:
 
 Image here
 
-Image here
 
-Summary of different packages
+Fig: Summary of different packages
 
 
 ### Comparative analysis and selecting the righ Package type
 
 Image here
 
+Fig: Compararision between different packaging techniques
 
 Packages left end like DIP,  QFN are low cost and easy to assemble, but they occupy large space and as we move towards the right they become compact with more IO density and are suitable for high performance, but their cost increases.
