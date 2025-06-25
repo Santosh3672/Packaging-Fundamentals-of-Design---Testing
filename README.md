@@ -56,8 +56,7 @@ Once silicon wafers are manufactured, individual dies are separated, packaged, a
 **Integrated Device Manufacturer(IDM):** IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a3.png)
-
-Fig: Packaging & testing in Semiconductor flow
+*Fig: Packaging & testing in Semiconductor flow*
 
 
 **Key Factors in Selecting the Right Semiconductor Package**:
@@ -76,8 +75,7 @@ Fig: Packaging & testing in Semiconductor flow
 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a6.png)
-
-Fig: Visual representation of the integration of Chip, Package and board
+*Fig: Visual representation of the integration of Chip, Package and board*
 
 Carrier: Substrate at packaging level
 
@@ -120,8 +118,7 @@ Packages designed for direct mounting on PCB surfaces—key to miniaturization a
    - **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a7.png)
-
-Fig: Popular packaing techniques (TMM and SMT)
+*Fig: Popular packaing techniques (TMM and SMT)*
 
 
 **3.Advanced package substrate**:
@@ -140,8 +137,7 @@ For multiple die in a package we can also add layers between die and substrate:
 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a9.png)
-
-Fig: Cross sectional view of different packaging techniques
+*Fig: Cross sectional view of different packaging techniques*
 
 
 **Option for carrier**: Leadframe(DIP, QFN) . Laminate(multiple layers) , plastic, ceramic (high temp.), organic RDL, silicon, glass
@@ -154,14 +150,12 @@ Options for interconnections:
 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a10.png)
-
-Fig: Chip to board connections for different packages
+*Fig: Chip to board connections for different packages*
 
 
 ### <a name="head1_5"></a>Comparative analysis and selecting the righ Package type
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a11.png)
-
-Fig: Compararision between different packaging techniques
+*Fig: Compararision between different packaging techniques*
 
 Packages left end like DIP,  QFN are low cost and easy to assemble, but they occupy large space and as we move towards the right they become compact with more IO density and are suitable for high performance, but their cost increases.
