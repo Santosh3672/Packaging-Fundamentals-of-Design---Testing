@@ -8,6 +8,13 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Overview of different types of Packaging technologies](#head1_4)
 #### [Comparative analysis and selecting the righ Package type](#head1_5)
 
+### [Wafer to Package: Assembly and Manufacturing Essentials](#head2_1)
+#### [From Wafer to Package: Role of ATMP Plants](#head2_2)
+#### [Steps Involved in manufacturing a Wire Bond package](#head2_3)
+#### [Steps Involved in manufacturing a Flip chip package](#head2_4)
+#### [Steps Involved in manufacturing a Wafer layer package](#head2_5)
+
+
 ## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
 ### <a name="head1_2"></a>Introduction to Packaging and its Requirement
 Packaging is the process of transforming bare semiconductor dies—fabricated on silicon wafers—into robust, functional components that can be mounted onto printed circuit boards (PCBs). It serves as a critical bridge between the microscopic world of silicon and the macroscopic realities of real-world electronics.
@@ -159,3 +166,10 @@ Options for interconnections:
 *Fig: Compararision between different packaging techniques*
 
 Packages left end like DIP,  QFN are low cost and easy to assemble, but they occupy large space and as we move towards the right they become compact with more IO density and are suitable for high performance, but their cost increases.
+
+
+## <a name="head2_1"></a>Wafer to Package: Assembly and Manufacturing Essentials
+### <a name="head2_2"></a>From Wafer to Package: Role of ATMP Plants
+### <a name="head2_3"></a>Steps Involved in manufacturing a Wire Bond package
+### <a name="head2_4"></a>Steps Involved in manufacturing a Flip chip package
+### <a name="head2_5"></a>Steps Involved in manufacturing a Wafer layer package
