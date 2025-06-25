@@ -50,15 +50,11 @@ Fig: Components a wire bond BGA package
 
 Once silicon wafers are manufactured, individual dies are separated, packaged, and rigorously tested. This step prepares the chips for real-world integration by enabling thermal management, mechanical protection, and secure electrical interfacing with PCBs.
 
-**Fabless companies** 
+**Fabless companies:** These companies focus solely on chip architecture, RTL development, physical design, and verification. Upon finalizing the design, they deliver the GDSII file to a semiconductor foundry for fabrication. They do not own wafer fabs or engage in packaging/test. 
 
-These companies focus solely on chip architecture, RTL development, physical design, and verification. Upon finalizing the design, they deliver the GDSII file to a semiconductor foundry for fabrication. They do not own wafer fabs or engage in packaging/test. 
+**Outsourced Semiconductor Assembly and Test (OSAT):** OSATs provide third-party services to fabless and IDM companies, handling wafer probing, die packaging (e.g., wire bond, flip-chip, fan-out), final testing, and delivery. 
 
-**Outsourced Semiconductor Assembly and Test (OSAT)**
-OSATs provide third-party services to fabless and IDM companies, handling wafer probing, die packaging (e.g., wire bond, flip-chip, fan-out), final testing, and delivery. 
-
-**Integrated Device Manufacturer(IDM)**
-IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
+**Integrated Device Manufacturer(IDM):** IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
 
 Image here
 
@@ -67,21 +63,21 @@ Fig: Packaging & testing in Semiconductor flow
 
 **Key Factors in Selecting the Right Semiconductor Package**:
 
-    1. **I/O Requirements (Pin Count)**:The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
+   1. **I/O Requirements (Pin Count)**:The number and density of input/output connections determine whether to use high-density packages (e.g., BGA, CSP) or simpler ones (e.g., QFP, SOIC). 
 
-    2. **Thermal Performance**:
+   2. **Thermal Performance**:
 Packages must dissipate heat effectively to maintain device reliability. Materials like ceramics or metal-core substrates are preferred for high-power applications. 
 
-    3. **Form Factor and Footprint**:
+   3. **Form Factor and Footprint**:
 The package size must align with the PCB layout and available space—especially critical in portable and miniaturized devices. 
 
-    4. **Reliability and Mechanical Durability**:
+   4. **Reliability and Mechanical Durability**:
 Influenced by environmental conditions and material choices—packages must withstand thermal cycling, vibration, moisture, and handling stress. 
 
-    5. **Cost and Production Volume**:
+   5. **Cost and Production Volume**:
 There's a trade-off between performance and cost. Simpler packages may be cost-effective for high-volume products, while advanced ones (e.g., flip-chip, fan-out) suit high-performance designs despite higher expense. 
 
-    6. **End Application Requirements**:
+   6. **End Application Requirements**:
 Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
 
 
