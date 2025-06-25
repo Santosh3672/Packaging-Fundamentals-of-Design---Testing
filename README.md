@@ -3,18 +3,17 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 
 ## Contents
 ### Packaging Evolution: From Basics to 3D Integration:
-#### Introduction to Packaging: Requirement and Types
+#### Introduction to Packaging and its Requirement
 #### Components of Package and its significance in semiconductor cycle
 #### Overview of different types of Packaging technologies
 #### Comparative analysis and selecting the righ Package type
 
 ## Packaging Evolution: From Basics to 3D Integration:
-### Introduction to Packaging: Requirement and Types
+### Introduction to Packaging and its Requirement
 Packaging is the process of transforming bare semiconductor dies—fabricated on silicon wafers—into robust, functional components that can be mounted onto printed circuit boards (PCBs). It serves as a critical bridge between the microscopic world of silicon and the macroscopic realities of real-world electronics.
 
 Need for Semiconductor Packaging
-1. **Die Protection**  
-   Safeguards the fragile semiconductor die from:
+1. **Die Protection**: Safeguards the fragile semiconductor die from:
    - Corrosive environments  
    - Moisture ingress  
    - Mechanical shock  
@@ -22,15 +21,13 @@ Need for Semiconductor Packaging
    
    This ensures the long-term reliability of the device.
 
-2. **Electrical Interconnectivity**  
-   Enables electrical connection of the die to external circuitry such as:
+2. **Electrical Interconnectivity**:  Enables electrical connection of the die to external circuitry such as:
    - Printed Circuit Boards (PCBs)  
    - Other dies in multi-die systems (advanced configurations)  
    
    Techniques used include:
    - Wire bonding  
    - Flip-chip  
-   - Through-Silicon Vias (TSVs)
 
 ### Components of Package and its significance in semiconductor cycle
 Image here
