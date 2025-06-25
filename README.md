@@ -50,7 +50,7 @@ A semiconductor packages contain following elements:
 
 **Traces** – Embedded metal lines within the substrate that carry electrical signals between the wire bonds and the external interface of the package. 
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a2.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a2.png)
 *Fig: Components a wire bond BGA package*
 
 
@@ -62,7 +62,7 @@ Once silicon wafers are manufactured, individual dies are separated, packaged, a
 
 **Integrated Device Manufacturer(IDM):** IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a3.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a3.png)
 *Fig: Packaging & testing in Semiconductor flow*
 
 
@@ -81,7 +81,7 @@ Once silicon wafers are manufactured, individual dies are separated, packaged, a
    6. **End Application Requirements**: Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
 
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a6.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a6.png)
 *Fig: Visual representation of the integration of Chip, Package and board*
 
 Carrier: Substrate at packaging level
@@ -124,7 +124,7 @@ Packages designed for direct mounting on PCB surfaces—key to miniaturization a
 
    - **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a7.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a7.png)
 *Fig: Popular packaing techniques (TMM and SMT)*
 
 
@@ -143,7 +143,7 @@ For multiple die in a package we can also add layers between die and substrate:
    - **3D**: Chip is put on top of another chip.
 
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a9.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a9.png)
 *Fig: Cross sectional view of different packaging techniques*
 
 
@@ -156,13 +156,13 @@ Options for interconnections:
    - **Bump/solder**: Connecting the die and substrate directly through bump/solder
 
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a10.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a10.png)
 *Fig: Chip to board connections for different packages*
 
 
 ### <a name="head1_5"></a>Comparative analysis and selecting the righ Package type
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a11.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_a11.png)
 *Fig: Compararision between different packaging techniques*
 
 Packages left end like DIP,  QFN are low cost and easy to assemble, but they occupy large space and as we move towards the right they become compact with more IO density and are suitable for high performance, but their cost increases.
