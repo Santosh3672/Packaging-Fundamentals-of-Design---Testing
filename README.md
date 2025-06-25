@@ -56,7 +56,7 @@ Once silicon wafers are manufactured, individual dies are separated, packaged, a
 
 **Integrated Device Manufacturer(IDM):** IDMs own and manage the complete silicon lifecycle—from design to fabrication and packaging/testing. This vertically integrated model gives them more control over costs, timelines, and supply chain resilience. 
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a3.png)
 
 Fig: Packaging & testing in Semiconductor flow
 
@@ -76,7 +76,7 @@ Fig: Packaging & testing in Semiconductor flow
    6. **End Application Requirements**: Automotive, aerospace, and medical devices may demand high-reliability packages with long lifespans, while consumer electronics may favor compact, cost-optimized options. 
 
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a6.png)
 
 Fig: Visual representation of the integration of Chip, Package and board
 
@@ -120,7 +120,7 @@ Packages designed for direct mounting on PCB surfaces—key to miniaturization a
 
    - **CoWoS (Chip-on-Wafer-on-Substrate)**: An advanced 2.5D packaging method enabling high-bandwidth interconnect between dies; used in high-end SoCs and AI accelerators.
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a7.png)
 
 Fig: Popular packaing techniques (TMM and SMT)
 
@@ -140,7 +140,7 @@ For multiple die in a package we can also add layers between die and substrate:
    - **3D**: Chip is put on top of another chip.
 
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a9.png)
 
 Fig: Cross sectional view of different packaging techniques
 
@@ -154,15 +154,14 @@ Options for interconnections:
    - **Bump/solder**: Connecting the die and substrate directly through bump/solder
 
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a10.png)
 
-
-Fig: Summary of different packages
+Fig: Chip to board connections for different packages
 
 
 ### <a name="head1_5"></a>Comparative analysis and selecting the righ Package type
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a10.png)
 
 Fig: Compararision between different packaging techniques
 
