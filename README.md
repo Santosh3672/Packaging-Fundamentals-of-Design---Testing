@@ -51,6 +51,7 @@ Fig: Components a wire bond BGA package
 Once silicon wafers are manufactured, individual dies are separated, packaged, and rigorously tested. This step prepares the chips for real-world integration by enabling thermal management, mechanical protection, and secure electrical interfacing with PCBs.
 
 **Fabless companies** 
+
 These companies focus solely on chip architecture, RTL development, physical design, and verification. Upon finalizing the design, they deliver the GDSII file to a semiconductor foundry for fabrication. They do not own wafer fabs or engage in packaging/test. 
 
 **Outsourced Semiconductor Assembly and Test (OSAT)**
