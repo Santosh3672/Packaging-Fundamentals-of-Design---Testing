@@ -34,6 +34,7 @@ Need for Semiconductor Packaging
 
 ### Components of Package and its significance in semiconductor cycle
 Image here
+
 Wire bond BGA package example
 
 **Molding Compound** – An epoxy-based resin that encapsulates the die and wire bonds, offering mechanical protection and shielding against moisture, dust, and contaminants. 
