@@ -44,8 +44,7 @@ A semiconductor packages contain following elements:
 **Traces** – Embedded metal lines within the substrate that carry electrical signals between the wire bonds and the external interface of the package. 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a2.png)
-
-Fig: Components a wire bond BGA package
+*Fig: Components a wire bond BGA package*
 
 
 Once silicon wafers are manufactured, individual dies are separated, packaged, and rigorously tested. This step prepares the chips for real-world integration by enabling thermal management, mechanical protection, and secure electrical interfacing with PCBs.
@@ -161,7 +160,7 @@ Fig: Chip to board connections for different packages
 
 ### <a name="head1_5"></a>Comparative analysis and selecting the righ Package type
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a10.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/Day1/Images/Pic_a11.png)
 
 Fig: Compararision between different packaging techniques
 
