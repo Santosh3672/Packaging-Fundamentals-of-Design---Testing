@@ -9,7 +9,7 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Comparative analysis and selecting the righ Package type](#head1_5)
 
 ### [Wafer to Package: Assembly and Manufacturing Essentials](#head2_1)
-#### [From Wafer to Package: Role of ATMP Plants](#head2_2)
+#### [Packaging and Manifacturing Terminologies](#head2_2)
 #### [Steps Involved in manufacturing a Wire Bond package](#head2_3)
 #### [Steps Involved in manufacturing a Flip chip package](#head2_4)
 #### [Steps Involved in manufacturing a Wafer layer package](#head2_5)
@@ -169,7 +169,56 @@ Packages left end like DIP,  QFN are low cost and easy to assemble, but they occ
 
 
 ## <a name="head2_1"></a>Wafer to Package: Assembly and Manufacturing Essentials
-### <a name="head2_2"></a>From Wafer to Package: Role of ATMP Plants
+### <a name="head2_2"></a>Packaging and Manufacturing Terminologies
+1. **ATMP (Assembly, Testing, Marking, and Packaging):**
+A critical post-fabrication stage encompassing:
+    - Assembly of the die into its package 
+    - Electrical testing to screen functional and defective parts 
+    - Marking for traceability (e.g., logo, lot ID, part number) 
+    - Packaging to protect the die and establish I/O interfaces 
+2. **Manufacturing Organizations:**
+    - In-House Facilities:
+Large IDMs like Intel, Samsung, and SK Hynix manage ATMP within their ecosystem, ensuring tight control over IP, quality, and supply chain logistics. 
+    - OSAT (Outsourced Semiconductor Assembly and Test):
+Specialized third-party providers like ASE Group, Amkor, and increasingly Tata Electronics offer scalable ATMP services to fabless companies and IDMs alike. 
+3. **Clean Room Environments:**
+Semiconductor packaging and testing are performed in highly controlled clean room environments to minimize particle contamination.
+    - Class Ratings (e.g., Class 1000): Indicate max allowable particles per cubic foot of air. 
+    - ISO Standards (e.g., ISO 6): International benchmarks for air cleanliness.
+These cleanrooms often occupy the largest footprint in ATMP facilities and are critical for ensuring process integrity during wire bonding, mold encapsulation, and optical inspections. 
+
+Image Here
+*Fig: ATMP plant in semiconductor supply chain*
+
+
+
+**Sections of an ATMP unit**
+ - **Testing Area:**Final packaged devices undergo rigorous electrical characterization, thermal performance evaluation, and reliability stress testing (e.g., burn-in, thermal cycling, ESD testing). This ensures that only functional and robust units proceed to shipment. 
+
+ - **Material Preparation & Storage:** Houses various raw materials required for assembly—such as lead frames, substrates, mold compounds, bonding wires, and adhesives. Environmental controls are often in place to preserve material integrity. 
+
+ - **Utility & Maintenance Infrastructure:** Supports continuous manufacturing through stable power, pure water, compressed air, vacuum systems, and regular equipment calibration and maintenance. Critical for yield consistency and process safety. 
+
+ - **Warehouse (Finished Goods Storage):** Stores final packaged and tested devices under controlled conditions until dispatch. Includes automated inventory tracking and quality audit zones to ensure compliance and traceability. 
+
+Imgage here
+*Fig: Representative ATMP unit layout*
+
+**Activities inside Wafer Preparation Area (clean room):**
+  1. **Wafer Carrier Reception:** Wafers fabricated at the foundry are transported in protective carriers designed to prevent mechanical damage, contamination, and static discharge. 
+  2. **Wafer Inspection:** Upon arrival, wafers undergo visual and metrology-based inspection to identify physical defects, alignment issues, or contamination. Defective wafers are rejected before proceeding. 
+  3. **Wafer Front-Side Tape Lamination:** A protective tape is laminated onto the front (device) side of the wafer to shield delicate circuit elements during back grinding and dicing. 
+  4. **Wafer Backside Grinding:** The non-active backside of the wafer, which often includes additional supporting materials, is ground down to achieve the target thickness suitable for packaging. This step enhances thermal performance and minimizes z-height. 
+  5. **Tape Frame Mounting:** After grinding, the wafer becomes mechanically fragile. To enable safe handling during dicing, it is mounted onto a tape frame, which provides structural support. 
+  6. **Wafer Dicing:** The wafer is singulated into individual dies through a two-step process: 
+   - **Laser Grooving:** Pre-cuts shallow trenches to weaken die streets. 
+   - **Blade Dicing:** A high-speed diamond blade completes the separation with high precision. 
+
+[Video on Wafer preparation](https://www.youtube.com/watch?v=hR5orrmpoeE&pp=ygUUYSBsb29rIGluc2lkZSBhbWtvciA%3D)
+
+Image here
+*Fig: Wafer preparation flow*
+
 ### <a name="head2_3"></a>Steps Involved in manufacturing a Wire Bond package
 ### <a name="head2_4"></a>Steps Involved in manufacturing a Flip chip package
 ### <a name="head2_5"></a>Steps Involved in manufacturing a Wafer layer package
