@@ -222,13 +222,13 @@ These cleanrooms often occupy the largest footprint in ATMP facilities and are c
 ### <a name="head2_3"></a>Steps Involved in manufacturing a Wire Bond package
 **Die Attach:** The individual die is mounted onto the substrate or leadframe using a thermally and mechanically conductive adhesive (e.g., epoxy, solder, or sintered silver). The pattern and uniformity of die attach directly influence thermal dissipation, mechanical stability, and long-term reliability. 
 
- ![Video on Die attach](https://www.youtube.com/watch?v=jliiUV0vDic&pp=ygUTRGllIGF0dGFjaCBvdmVydmlldw%3D%3D)
+[Video on Die attach](https://www.youtube.com/watch?v=jliiUV0vDic&pp=ygUTRGllIGF0dGFjaCBvdmVydmlldw%3D%3D)
 
 **Curing:** The adhesive is cured to strengthen the die-to-substrate bond. This is typically done using thermal ovens or UV curing systems, depending on the adhesive type. Proper curing ensures mechanical integrity and minimizes voids or delamination. 
 
 **Wire Bonding (Stitching):** Fine wires (gold, copper, or aluminum) are bonded between the die pads and substrate pads using thermosonic wedge or ball bonding. Equipment like the HB100 automatic wire bonder enables precise, repeatable bonding with pattern recognition and loop profiling.
 
- ![Video on Stiching](https://www.youtube.com/watch?v=3YkGrhvrWxA&pp=ygUPaGIxMDAgYXV0b21hdGlj0gcJCb4JAYcqIYzv)
+[Video on Stiching](https://www.youtube.com/watch?v=3YkGrhvrWxA&pp=ygUPaGIxMDAgYXV0b21hdGlj0gcJCb4JAYcqIYzv)
 
 **Molding:** A mold compound (usually epoxy-based) is dispensed and cured to encapsulate the die and wire bonds. This provides mechanical protection, moisture resistance, and electrical insulation. 
 
