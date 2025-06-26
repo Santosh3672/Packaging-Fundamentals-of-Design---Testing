@@ -187,13 +187,13 @@ Semiconductor packaging and testing are performed in highly controlled clean roo
     - ISO Standards (e.g., ISO 6): International benchmarks for air cleanliness.
 These cleanrooms often occupy the largest footprint in ATMP facilities and are critical for ensuring process integrity during wire bonding, mold encapsulation, and optical inspections. 
 
-Image Here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b1.png)
 *Fig: ATMP plant in semiconductor supply chain*
 
 
 
 **Sections of an ATMP unit**
- - **Testing Area:**Final packaged devices undergo rigorous electrical characterization, thermal performance evaluation, and reliability stress testing (e.g., burn-in, thermal cycling, ESD testing). This ensures that only functional and robust units proceed to shipment. 
+ - **Testing Area:** Final packaged devices undergo rigorous electrical characterization, thermal performance evaluation, and reliability stress testing (e.g., burn-in, thermal cycling, ESD testing). This ensures that only functional and robust units proceed to shipment. 
 
  - **Material Preparation & Storage:** Houses various raw materials required for assembly—such as lead frames, substrates, mold compounds, bonding wires, and adhesives. Environmental controls are often in place to preserve material integrity. 
 
@@ -201,7 +201,7 @@ Image Here
 
  - **Warehouse (Finished Goods Storage):** Stores final packaged and tested devices under controlled conditions until dispatch. Includes automated inventory tracking and quality audit zones to ensure compliance and traceability. 
 
-Imgage here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b2.png)
 *Fig: Representative ATMP unit layout*
 
 **Activities inside Wafer Preparation Area (clean room):**
@@ -216,7 +216,7 @@ Imgage here
 
 [Video on Wafer preparation](https://www.youtube.com/watch?v=hR5orrmpoeE&pp=ygUUYSBsb29rIGluc2lkZSBhbWtvciA%3D)
 
-Image here
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b3.png)
 *Fig: Wafer preparation flow*
 
 ### <a name="head2_3"></a>Steps Involved in manufacturing a Wire Bond package
