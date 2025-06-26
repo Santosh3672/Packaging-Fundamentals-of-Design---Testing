@@ -220,5 +220,52 @@ These cleanrooms often occupy the largest footprint in ATMP facilities and are c
 *Fig: Wafer preparation flow*
 
 ### <a name="head2_3"></a>Steps Involved in manufacturing a Wire Bond package
+**Die Attach:** The individual die is mounted onto the substrate or leadframe using a thermally and mechanically conductive adhesive (e.g., epoxy, solder, or sintered silver). The pattern and uniformity of die attach directly influence thermal dissipation, mechanical stability, and long-term reliability.  ![Video on Die attach](https://www.youtube.com/watch?v=jliiUV0vDic&pp=ygUTRGllIGF0dGFjaCBvdmVydmlldw%3D%3D)
+**Curing:** The adhesive is cured to strengthen the die-to-substrate bond. This is typically done using thermal ovens or UV curing systems, depending on the adhesive type. Proper curing ensures mechanical integrity and minimizes voids or delamination. 
+**Wire Bonding (Stitching):** Fine wires (gold, copper, or aluminum) are bonded between the die pads and substrate pads using thermosonic wedge or ball bonding. Equipment like the HB100 automatic wire bonder enables precise, repeatable bonding with pattern recognition and loop profiling. ![Video on Stiching](https://www.youtube.com/watch?v=3YkGrhvrWxA&pp=ygUPaGIxMDAgYXV0b21hdGlj0gcJCb4JAYcqIYzv)
+**Molding:** A mold compound (usually epoxy-based) is dispensed and cured to encapsulate the die and wire bonds. This provides mechanical protection, moisture resistance, and electrical insulation. 
+**Marking:** The top surface of the molded package is laser-marked or ink-printed with identifiers such as part number, lot code, and manufacturer logo for traceability and quality control. 
+**Singulation:** The molded panel is diced into individual packages using high-precision saws. This step isolates each unit for final testing and shipment. 
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b4.png)
+*Fig: Wire bond package manufacture flow*
+
+
 ### <a name="head2_4"></a>Steps Involved in manufacturing a Flip chip package
+
+**Bump formation on Die:** This is an additional process where the solder bump is formed on the silicon through various steps which increases cost and complexity of flip chip. 
+It involves following steps: 
+- Formation of dielectric pattern creating sites for the fanout of die,
+- Addition of under bump metalization(UBM) and bump solder at fanout location
+- Reflow process is done where we put the die at high temperature.
+ 
+**Fluxing Dispensing:** Bond pads are the point of contact for bumps in the substrate, to protect them from oxidation a protective flux coating is added. 
+
+**Connecting Die and Substrate:** Bumped Die is flipped and aligning the bond pads and pressed. Then it is heated to join bumps and bond pad using a thermal compression process. Then the remaining flux is cleansed as it is not required.
+
+**Underfill Dispensing:** An underfill is added between substrate to absorb the pressure due to thermal expansion coefficient between die and substrate. To increase its strength it is heated by curing.
+
+**Molding**, **Marking** and **Ball formation** are same as that in wire bond process
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b5.png)
+*Fig: Flip chip package manufacture flow*
+
 ### <a name="head2_5"></a>Steps Involved in manufacturing a Wafer layer package
+
+Wafer-Level Packaging (WLP) enables direct interconnection between the die and solder balls through Redistribution Layers (RDLs), eliminating the need for a traditional substrate. This approach supports compact form factors, enhanced electrical performance, and lower parasitics, making it ideal for high-speed applications. WLP manufacturing involves following disctinct steps:
+
+**Reconstitution Process:** 
+   - Known-good dies are inspected and placed on a temporary carrier with controlled spacing. 
+   - A mold compound is applied to encapsulate the dies, forming a reconstituted wafer. 
+   - The carrier is then released, leaving behind a planar molded wafer ready for further processing. 
+
+**RDL Preparation:** 
+  - The die to ball interconnection is prepared on a carrier by adding multiple layers of dielectric as insulator and metals for connection. 
+  - Vias are patterned in the dielectric to connect metal layers, enabling complex routing. The number of RDL layers depends on the complexity of die fanouts. 
+  - The RDL pattern is transferred to the reconstituted wafer and carrier is discarded. Then the Balls are formed on top RDL layer.
+  - The RDL redistributes the die’s I/O pads to a larger area, allowing for ball pitch expansion (fan-out). 
+
+**Package Singulation:** After ball formation the reconstituted wafer is diced to separate individual packages, each containing a die, RDL, and solder balls. 
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b6.png)
+*Fig: Wafer level packaging manufacture flow*
