@@ -20,6 +20,12 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Defining Boundary condition and Adding Monitors](#head3_4)
 #### [Mesh generation for analysis and Viewing Results](#head3_5)
 
+###  [Introcudtion to Package testing](#head4_1)
+#### [AOST: Assembly Open and Short Test](#head4_2)
+#### [Burn-in Test](#head4_3)
+#### [Final test and ATE](#head4_4)
+
+
 ## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
 ### <a name="head1_2"></a>Introduction to Packaging and its Requirement
 Packaging is the process of transforming bare semiconductor dies—fabricated on silicon wafers—into robust, functional components that can be mounted onto printed circuit boards (PCBs). It serves as a critical bridge between the microscopic world of silicon and the macroscopic realities of real-world electronics.
@@ -378,3 +384,37 @@ Select the parameters requires, for our case surface plot is enabled, press done
 In our plot we see that die is at higher temperature due to 1W power dissipation that we selected and lack of heat sink in package. The substrate is at a lower temperature because we selected ambient temperature for it. 
 
 From the plot we can identify regions with high temperature that could be of concern.
+
+##  <a name="head4_1"></a> Introcudtion to Package testing
+During package testing the electrical, mechanical and thermal aspects of the manufactured Package are checked before using them in the board level.
+
+Stages of testing:
+  - Die level testing: Wafer probe test done at foundry or at OSAT during wafer preparation stage.
+  - Package Testing: Testing the manufactured package for electrical, thermal and mechanical aspects.
+  - System level Tests (SLT): Testing of all the packages in the system(board).
+
+![Image]()
+
+*Fig: Testing in various stages of semiconductor cycle*
+
+At an ATMP the manufactured packages are loaded in a **package board** before sending them to testing area. 
+
+There are three types of testing done on a package:
+  - **Assembly open and short test (AOST):** Used to flag open or shorts created during packaging steps, ensures functional
+  - **Burn-in:** Applying thermal and voltage stress to ensure early-life reliability
+  - **Final test:** Testing the packages in cold and hot temperature temperature mentioned in the datasheet ensuring functionality over all scenarios.
+
+### <a name="head4_2"></a> AOST: Assembly Open and Short Test
+Objective: Quick test for shorts or opens on package leads or balls. Used to check functionality.
+  - Testing immediately follows trim and form (lead frame packages) or singulation (BGA package).
+  - Packages are put through an open/short test to screen for massive electrical falls before leaving assembly
+  - There is also a visual inspection
+  Product grade sort (PGSRT) catches assembly related fails and sorts into product grade Best(1), Better(2), better(3), scrap(4).
+
+![Image]()
+
+*Fig: Example of failures detected in AOST tests*
+
+Image above illustrates how open and shorts are formed due to bent shapes of die and substrate forming shorts like bridging nearby bumps and opens like Non wet open (NWO).
+### <a name="head4_3"></a> Burn-in Test
+### <a name="head4_4"></a> Final test and ATE
