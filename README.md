@@ -14,6 +14,11 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Steps Involved in manufacturing a Flip chip package](#head2_4)
 #### [Steps Involved in manufacturing a Wafer layer package](#head2_5)
 
+### [Lab: Thermal Analysis of Package using Icepak](#head3_1)
+#### [Introduction to Ansys tool](#head3_2)
+#### [Instantiating prebuilt Package for Thermal Analysis](#head3_3)
+#### [Defining Boundary condition and Adding Monitors](#head3_4)
+#### [Mesh generation for analysis and Viewing Results](#head3_5)
 
 ## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
 ### <a name="head1_2"></a>Introduction to Packaging and its Requirement
@@ -278,3 +283,94 @@ Wafer-Level Packaging (WLP) enables direct interconnection between the die and s
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b6.png)
 *Fig: Wafer level packaging manufacture flow*
+
+##  <a name="head3_1"></a> Lab: Thermal Analysis of Package using Icepak
+### <a name="head3_2"></a> Introduction to Ansys tool
+Ansys Electronics Desktop(AEDT) is a comprehensive simulation suite used to design, analyze and optimize electronic systems across multiple physics domains.It is a unified platform that integrates tools such as:
+
+   - **Ansys HFSS** – for high-frequency electromagnetic simulation (RF, microwave, antennas) 
+   - **Ansys Maxwell** – for low-frequency electromagnetic and motor design 
+   - **Ansys Q3D Extractor** – for parasitic extraction in 3D interconnects  
+   - **Ansys Icepak** – for electronics thermal management using computational fluid dynamics
+
+![Image]()
+*Fig: Ansys Electronics desktop toolbar*
+
+To get started with an analysis go to `tools->insert` icepak design or directly click `Icepak` icon from the toolbar, It will create a project with Icepak section.
+Components in Icepak design analysis:
+
+  - **3D components and model**
+  - **Thermal:** Boundary condition
+  - **Monitor:** Edges or points
+  - **Mesh:** to solve the finite element analysis of bounding conditions
+  - **Analysis:** solving the equation
+  - **Results:** To view results of FEM
+
+
+### <a name="head3_3"></a> Instantiating prebuilt Package for Thermal Analysis
+
+To initiate prebuilt packages: Go to `Icepak -> Toolkit -> Geometry -> Packages` and select a required package.
+
+Then we get an option to specify various parameters of the package as follows:
+
+  - **Dimension:** Option to define the plane of package, Origin, Package dimensions, thickness and Symmetry
+  - **Substrate:** Options to define Substrate layer, thickness, material, Configure traces and Vias
+  - **Solder:** Define solder balls parameter like number of rows, columns and array type of balls and ball pitch, diameter, height etc.
+  - **Die:** Define dimension of die, power dissipation, material, bump and heat sink information.
+
+![Image]()
+*Fig: Parameters to be selected for a flipchip package instantiated from AEDT*
+
+After selecting parameters of package click Ok and package will be formed which can be viewed in 3D viewer.
+
+![Image]()
+*Fig: Pre built Flipchip package in AEDT 3D viewer*
+
+On the left we have a model section where the individual elements of packages are mentioned.
+
+Selecting a specific element highlights it in the 3D viewer.
+
+### <a name="head3_4"></a> Defining Boundary condition and Adding Monitors
+After package is created we can add boundary condition by selecting *die* or *traces* in `Thermal` section of the project manager then we can add power details in the Thermal Specification. 
+
+![Image]()
+*Fig: Thermal boundary condition applied to die source of 1W total power*
+
+Similarly to assign thermal boundary condition to substrate, right click on substrate in Model section, then select `Assign thermal -> Source`. A similar pop-up will come where here we mention temperature as *Ambient temperature* to simulate outer world then press Finish to save the details.
+
+To **monitor temperatures** in various sections of the package by adding monitors.
+
+To add a monitor on an element right click on it then select `Assign monitor -> Point monitor` then select parameter say temperature for our case.
+
+For our case we added monitor in die, underfill and substrate.
+
+### <a name="head3_5"></a> Mesh generation for analysis and Viewing Results
+In mesh generation is a process of dividing 3D model into small, discrete elements called as **Mesh**. To generate the mesh go to **simulation** section on top and select **generate mesh**, it will ask to save the file. 
+
+After mesh is generated a mesh visualization pop-up comes, in that we can inspect the quality of mesh under quality section, where we can check parameters like face alignment and skewness of the mesh generated. A good quality mesh with low skewness and good face alignment resuots in an accurate simulation. 
+
+![Image]()
+*Fig: Mesh visialization*
+
+For the **Analysis** on the Generated Mesh right click on Analysis and select `Add solution step` to configure the analysis. Select the required analysis type and save it by pressing ok it will create the analysis setting.
+
+
+![Image]()
+*Fig: Configuration used for Icepak thermal analysis*
+
+Before starting the analysis press validate in the simulation section, it will validate, design settings, 3D model, Boundary condition, Monitor, Mesh and Analysis setup.
+
+Start analysis by pressing   `Analyse All` from the simulation section. Ensure there are no warnings during the analysis. After analysis is completed successfully following message will be shown on message manager:
+
+<pre>```[info] Normal completion of simulation on server: Local Machine. (06:13:45 PM  Jun 26, 2025)```</pre>
+
+To plot the result select full package by dragging and right click then select `plot field -> temperature -> Temperature`
+
+Select the parameters requires, for our case surface plot is enabled, press done to start creating plot.
+
+![Image]()
+*Fig: Surface temperature plot of Flipchip package from different angles*
+
+In our plot we see that die is at higher temperature due to 1W power dissipation that we selected and lack of heat sink in package. The substrate is at a lower temperature because we selected ambient temperature for it. 
+
+From the plot we can identify regions with high temperature that could be of concern.
