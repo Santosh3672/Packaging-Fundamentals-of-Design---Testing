@@ -371,7 +371,7 @@ To plot the result select full package by dragging and right click then select `
 
 Select the parameters requires, for our case surface plot is enabled, press done to start creating plot.
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Picc13.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/picc13.png)
 *Fig: Surface temperature plot of Flipchip package from different angles*
 
 In our plot we see that die is at higher temperature due to 1W power dissipation that we selected and lack of heat sink in package. The substrate is at a lower temperature because we selected ambient temperature for it. 
