@@ -293,7 +293,7 @@ Ansys Electronics Desktop(AEDT) is a comprehensive simulation suite used to desi
    - **Ansys Q3D Extractor** – for parasitic extraction in 3D interconnects  
    - **Ansys Icepak** – for electronics thermal management using computational fluid dynamics
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c1.png)
 *Fig: Ansys Electronics desktop toolbar*
 
 To get started with an analysis go to `tools->insert` icepak design or directly click `Icepak` icon from the toolbar, It will create a project with Icepak section.
@@ -318,12 +318,12 @@ Then we get an option to specify various parameters of the package as follows:
   - **Solder:** Define solder balls parameter like number of rows, columns and array type of balls and ball pitch, diameter, height etc.
   - **Die:** Define dimension of die, power dissipation, material, bump and heat sink information.
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c3.png)
 *Fig: Parameters to be selected for a flipchip package instantiated from AEDT*
 
 After selecting parameters of package click Ok and package will be formed which can be viewed in 3D viewer.
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c4.png)
 *Fig: Pre built Flipchip package in AEDT 3D viewer*
 
 On the left we have a model section where the individual elements of packages are mentioned.
@@ -333,7 +333,7 @@ Selecting a specific element highlights it in the 3D viewer.
 ### <a name="head3_4"></a> Defining Boundary condition and Adding Monitors
 After package is created we can add boundary condition by selecting *die* or *traces* in `Thermal` section of the project manager then we can add power details in the Thermal Specification. 
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c5.png)
 *Fig: Thermal boundary condition applied to die source of 1W total power*
 
 Similarly to assign thermal boundary condition to substrate, right click on substrate in Model section, then select `Assign thermal -> Source`. A similar pop-up will come where here we mention temperature as *Ambient temperature* to simulate outer world then press Finish to save the details.
@@ -349,13 +349,13 @@ In mesh generation is a process of dividing 3D model into small, discrete elemen
 
 After mesh is generated a mesh visualization pop-up comes, in that we can inspect the quality of mesh under quality section, where we can check parameters like face alignment and skewness of the mesh generated. A good quality mesh with low skewness and good face alignment resuots in an accurate simulation. 
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c7.png)
 *Fig: Mesh visialization*
 
 For the **Analysis** on the Generated Mesh right click on Analysis and select `Add solution step` to configure the analysis. Select the required analysis type and save it by pressing ok it will create the analysis setting.
 
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c8.png)
 *Fig: Configuration used for Icepak thermal analysis*
 
 Before starting the analysis press validate in the simulation section, it will validate, design settings, 3D model, Boundary condition, Monitor, Mesh and Analysis setup.
@@ -368,7 +368,7 @@ To plot the result select full package by dragging and right click then select `
 
 Select the parameters requires, for our case surface plot is enabled, press done to start creating plot.
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c13.png)
 *Fig: Surface temperature plot of Flipchip package from different angles*
 
 In our plot we see that die is at higher temperature due to 1W power dissipation that we selected and lack of heat sink in package. The substrate is at a lower temperature because we selected ambient temperature for it. 
