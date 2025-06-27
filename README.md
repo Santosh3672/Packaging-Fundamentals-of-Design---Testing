@@ -393,7 +393,7 @@ Stages of testing:
   - Package Testing: Testing the manufactured package for electrical, thermal and mechanical aspects.
   - System level Tests (SLT): Testing of all the packages in the system(board).
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d1.png)
 
 *Fig: Testing in various stages of semiconductor cycle*
 
@@ -408,13 +408,37 @@ There are three types of testing done on a package:
 Objective: Quick test for shorts or opens on package leads or balls. Used to check functionality.
   - Testing immediately follows trim and form (lead frame packages) or singulation (BGA package).
   - Packages are put through an open/short test to screen for massive electrical falls before leaving assembly
-  - There is also a visual inspection
-  Product grade sort (PGSRT) catches assembly related fails and sorts into product grade Best(1), Better(2), better(3), scrap(4).
+  - There is also a visual inspection. Product grade sort (PGSRT) catches assembly related fails and sorts into product grade Best(1), Better(2), better(3), scrap(4).
 
-![Image]()
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d3.png)
 
 *Fig: Example of failures detected in AOST tests*
 
 Image above illustrates how open and shorts are formed due to bent shapes of die and substrate forming shorts like bridging nearby bumps and opens like Non wet open (NWO).
 ### <a name="head4_3"></a> Burn-in Test
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d4.png)
+
+*Fig: Burn-in test details*
+
+A manufactured packages lifespan has 3 stage:
+  - **Infant stage:** Just after its manufactured the package has high failure rate during initial stages due material defect, assembly error, etc. The failure rate drops gradually over time and usage.
+  - **Useful Life:** This is where the risk related to early package failure are no longer present and the package has the lowest failure rate (due to random failure).
+  - **Wear out:** After some time of operation the wear effect starts and failure rate increases, this is typical lifespan of the package.
+
+The role of burn-in test is to accelerate the Infant Mortality stage and avoid any initial failure before using them on system level.
+
 ### <a name="head4_4"></a> Final test and ATE
+Final test is used to test the performance of package in the corner temperature that the product offers.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d5.png)
+
+*Fig: Final test details*
+
+**Automatic Test Equipment (ATE):** A test equipment that send automatic test pattern generation(ATPG) to the device under test(DUT).
+It has following test criterias:
+  - **Parametric tests:** Measure current or voltage for the unit to ensure circuit is performing within specific parameters
+  - **Functional Tests:** Evaluate functionality of the unit under operating condition
+  - **Speed tests:** Assesses speed of units according to data sheet specification and sorts based on speed.
+
+Key performance indicators of testing: Yield, Testing time and Test coverage.
