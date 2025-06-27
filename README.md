@@ -417,9 +417,6 @@ Objective: Quick test for shorts or opens on package leads or balls. Used to che
 Image above illustrates how open and shorts are formed due to bent shapes of die and substrate forming shorts like bridging nearby bumps and opens like Non wet open (NWO).
 ### <a name="head4_3"></a> Burn-in Test
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d4.png)
-
-*Fig: Burn-in test details*
 
 A manufactured packages lifespan has 3 stage:
   - **Infant stage:** Just after its manufactured the package has high failure rate during initial stages due material defect, assembly error, etc. The failure rate drops gradually over time and usage.
@@ -427,6 +424,11 @@ A manufactured packages lifespan has 3 stage:
   - **Wear out:** After some time of operation the wear effect starts and failure rate increases, this is typical lifespan of the package.
 
 The role of burn-in test is to accelerate the Infant Mortality stage and avoid any initial failure before using them on system level.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_d4.png)
+
+*Fig: Burn-in test details*
+
 
 ### <a name="head4_4"></a> Final test and ATE
 Final test is used to test the performance of package in the corner temperature that the product offers.
