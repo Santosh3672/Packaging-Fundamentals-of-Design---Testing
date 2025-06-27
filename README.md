@@ -334,6 +334,7 @@ Selecting a specific element highlights it in the 3D viewer.
 After package is created we can add boundary condition by selecting *die* or *traces* in `Thermal` section of the project manager then we can add power details in the Thermal Specification. 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c5.png)
+
 *Fig: Thermal boundary condition applied to die source of 1W total power*
 
 Similarly to assign thermal boundary condition to substrate, right click on substrate in Model section, then select `Assign thermal -> Source`. A similar pop-up will come where here we mention temperature as *Ambient temperature* to simulate outer world then press Finish to save the details.
@@ -350,12 +351,14 @@ In mesh generation is a process of dividing 3D model into small, discrete elemen
 After mesh is generated a mesh visualization pop-up comes, in that we can inspect the quality of mesh under quality section, where we can check parameters like face alignment and skewness of the mesh generated. A good quality mesh with low skewness and good face alignment resuots in an accurate simulation. 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c7.png)
+
 *Fig: Mesh visialization*
 
 For the **Analysis** on the Generated Mesh right click on Analysis and select `Add solution step` to configure the analysis. Select the required analysis type and save it by pressing ok it will create the analysis setting.
 
 
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c8.png)
+
 *Fig: Configuration used for Icepak thermal analysis*
 
 Before starting the analysis press validate in the simulation section, it will validate, design settings, 3D model, Boundary condition, Monitor, Mesh and Analysis setup.
@@ -368,7 +371,7 @@ To plot the result select full package by dragging and right click then select `
 
 Select the parameters requires, for our case surface plot is enabled, press done to start creating plot.
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_c13.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Picc13.png)
 *Fig: Surface temperature plot of Flipchip package from different angles*
 
 In our plot we see that die is at higher temperature due to 1W power dissipation that we selected and lack of heat sink in package. The substrate is at a lower temperature because we selected ambient temperature for it. 
