@@ -14,7 +14,7 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Steps Involved in manufacturing a Flip chip package](#head2_4)
 #### [Steps Involved in manufacturing a Wafer layer package](#head2_5)
 
-### [Lab: Thermal Analysis of Package using Icepak](#head3_1)
+### [Lab1: Thermal Analysis of Package using Icepak](#head3_1)
 #### [Introduction to Ansys tool](#head3_2)
 #### [Instantiating prebuilt Package for Thermal Analysis](#head3_3)
 #### [Defining Boundary condition and Adding Monitors](#head3_4)
@@ -25,7 +25,7 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Burn-in Test](#head4_3)
 #### [Final test and ATE](#head4_4)
 
-### [Lab: Building a Semiconductor Package from Scratch](#head5_1)
+### [Lab2: Building a Semiconductor Package from Scratch](#head5_1)
 #### [Die, Substrate and Die attach creation](#head5_2)
 #### [Die bondpad, Substrate bondpad and Wire bonding creation](#head5_3)
 #### [Wire bonding for whole design](#head5_4)
@@ -295,7 +295,7 @@ Wafer-Level Packaging (WLP) enables direct interconnection between the die and s
 ![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_b6.png)
 *Fig: Wafer level packaging manufacture flow*
 
-##  <a name="head3_1"></a> Lab: Thermal Analysis of Package using Icepak
+##  <a name="head3_1"></a> Lab1: Thermal Analysis of Package using Icepak
 ### <a name="head3_2"></a> Introduction to Ansys tool
 Ansys Electronics Desktop(AEDT) is a comprehensive simulation suite used to design, analyze and optimize electronic systems across multiple physics domains.It is a unified platform that integrates tools such as:
 
@@ -452,8 +452,129 @@ It has following test criterias:
 
 Key performance indicators of testing: Yield, Testing time and Test coverage.
 
-##  <a name="head5_1"></a> Lab: Building a Semiconductor Package from Scratch
+##  <a name="head5_1"></a> Lab2: Building a Semiconductor Package from Scratch
+**Objective:** Build a wire bond package from scratch on AEDT 3d model builder and use required materials for various components.
+
+To start with creating 3D model click on Q3D tool from the toolbar it will create a blank 3D coordinate system.
+
 ### <a name="head5_2"></a> Die, Substrate and Die attach creation
+**Die specification:**  
+  - Dimension: 3mm x 3mm 
+  - Position: (0,0,0)
+  - Thickness: 0.2mm
+
+To create a die select *rectangle* icon from *draw* section and create a rectangle on the XY plane.
+
+The rectangle will show on model section on the left, right click on the rectangle and select properties to set the specification mentioned above.
+
+It is a 2d shape so thickness can’t be applied yet.
+
+To bring thickness select the rectangle then go to `Modeler -> Surface -> Thicken sheet`, set the thickness (0.2mm) and press ok.
+
+Set the material of the die by double clicking on the rectangle and select dropdown next to material. Select *silicon* as material for material and press apply to set it. 
+
+Similarly edit the name from properties and set it as die.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e1.png)
+
+*Fig: AEDT 3D viewer with die created*
+
+**Substrate specification:**
+  - Dimension: 5mm x 5mm
+  - Position: (-1,-1,-0.1)
+  - Thickness: -0.5mm
+
+Create a rectangle on XY plane and select the dimension and position from properties section of the rectangle. Z position of -0.1mm means substrate is 0.1mm below die surface giving space for epoxy die attach.
+
+Set the thickness by selecting `Modeler -> Surface -> Thicken sheet` and set thickness as -0.5 as surface has to go towards negative Z axis.
+Set the material as *FR4_epoxy*.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e2.png)
+
+*Fig: AEDT 3D viewer with die and substrate created*
+
+**Die-attach specification:**
+  - Dimension: 3mm x 3mm 
+  - Position: (0,0,-0.1)
+  - Thickness: 0.1mm
+
+Create the rectangle in similar way as before and set dimensions and position, for thickness set 0.1mm as it has to move on positive Z axis.
+Edit the name and set material as *epoxy_kevlar_xy*.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e3.png)
+
+*Fig: AEDT 3D viewer with die, substrate and die-attach created*
+
 ### <a name="head5_3"></a> Die bondpad, Substrate bondpad and Wire bonding creation
+In this section we create the connection between die and substrate by first adding bondpads on die and substrate as a 3D objects with the specification mentioned below.
+
+**Die bond pad specification:**
+  - Dimension: 0.2mm x 0.2mm
+  - Position: (0.2,0.2,0.2) placed on top of the upper die surface close to edge
+  - Thickness: 5um
+  - Material: Copper
+
+**Substrate bond pad specification:**
+  - Dimension: 0.2mm x 0.2mm
+  - Position: (0.2,-0.8, -0.1) placed on substrate surface aligning with die bond pad.
+  - Thickness: 5um
+  - Material: Copper
+
+The bondpads are thin and added around the edges of die.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e4.png)
+
+*Fig: AEDT 3D viewer with showing bondpads on die and substrate*
+
+**Wire bond creation:**
+To create a wire bond select `Draw bondwire` next to rectangle section in draw section.
+
+Then click on middle of the die bond pad to start wire bonding then click on middle of substrate bond pad to end. 
+
+Then a pop-up shows asking for bond wire specification like bond wire type, diameter, and dimension as shown below. For now select the default settings and press ok.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e6.png)
+
+*Fig: AEDT 3D viewer with showing wire bonding between die and substrate bondpad*
+
+Similarly another group of die bond pad, substrate bond pad and wire bond are created next to the current group with a gap of 0.2mm.
+For wire bond assign *gold* as material.
+
+
 ### <a name="head5_4"></a> Wire bonding for whole design
+
+Creating a bondpads for the whole design is a long repeating task, however there is option to duplicate existing structure along an axis saving time. Following steps are required:
+  - Select a bond pad and right click then `Edit -> Duplicate -> Along line`
+  - Then drag the edge along the line where you want to duplicate and left click after some space as shown above. After that mention the number of duplicates required along the line and press enter.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e7.png)
+
+*Fig: Duplicating a substrate bond pad along Y axis in AEDT*
+
+  - Following this under the original element a *duplicate along section* will be formed double click that and ensure that the vector section is properly set, it specifies the space between the duplicates are done.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e8.png)
+
+*Fig: Five duplicate substrate bond pad along Y axis formed in a single execution*
+
+This step is followed this for all bond pads and wire bonds along all edges.
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e9.png)
+
+*Fig: Bondpads and Bondwires formed on all edges using duplicate instantiation for faster creation*
+
 ### <a name="head5_5"></a> Mold addition
+In final step add molding compound on the substrate. 
+
+**Selection of Mold dimension: **
+  - Position: same as that of substrate (-1,-1,-0.1)
+  - Length and width: same as that of substrate 5mm x 5mm
+  - Thickness: Should be above the wire bonds height 1.2mm (> Die attach thickness (0.1mm) + Die thickness(0.2mm)  + top height of wire bond(0.2mm))
+    The extra margin ensures wire bonds are safe after laser marking.
+  - Material used: Epoxy_kevlar_xy
+
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e9.png)
+
+*Fig: Final Package with Molding compound added*
+
+[Lab file](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Packaging_VSD_Project_2.aedt)
