@@ -25,6 +25,11 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Burn-in Test](#head4_3)
 #### [Final test and ATE](#head4_4)
 
+### [Lab: Building a Semiconductor Package from Scratch](#head5_1)
+#### [Die, Substrate and Die attach creation](#head5_2)
+#### [Die bondpad, Substrate bondpad and Wire bonding creation](#head5_3)
+#### [Wire bonding for whole design](#head5_4)
+#### [Mold addition](#head5_5)
 
 ## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
 ### <a name="head1_2"></a>Introduction to Packaging and its Requirement
@@ -446,3 +451,9 @@ It has following test criterias:
   - **Speed tests:** Assesses speed of units according to data sheet specification and sorts based on speed.
 
 Key performance indicators of testing: Yield, Testing time and Test coverage.
+
+##  <a name="head5_1"></a> Lab: Building a Semiconductor Package from Scratch
+### <a name="head5_2"></a> Die, Substrate and Die attach creation
+### <a name="head5_3"></a> Die bondpad, Substrate bondpad and Wire bonding creation
+### <a name="head5_4"></a> Wire bonding for whole design
+### <a name="head5_5"></a> Mold addition
