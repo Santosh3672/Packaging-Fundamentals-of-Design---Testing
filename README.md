@@ -573,7 +573,7 @@ In final step add molding compound on the substrate.
     The extra margin ensures wire bonds are safe after laser marking.
   - Material used: Epoxy_kevlar_xy
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e9.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e10.png)
 
 *Fig: Final Package with Molding compound added*
 
