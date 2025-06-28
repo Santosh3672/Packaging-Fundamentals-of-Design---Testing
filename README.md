@@ -578,3 +578,9 @@ In final step add molding compound on the substrate.
 *Fig: Final Package with Molding compound added*
 
 [Lab file](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Packaging_VSD_Project_2.aedt)
+
+## Acknowledgement
+
+1. Dr. Tarun Kumar Agarwal (IITGN)
+
+2. Kunal Ghosh (VSD)
