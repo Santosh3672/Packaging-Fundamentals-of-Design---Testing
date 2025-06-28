@@ -584,4 +584,6 @@ In final step add molding compound on the substrate.
 
 1. Dr. Tarun Kumar Agarwal (IITGN)
 
-2. Kunal Ghosh (VSD)
+2. Abhimanyu Singh (Ansys)
+
+3. Kunal Ghosh (VSD)
