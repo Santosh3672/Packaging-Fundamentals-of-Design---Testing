@@ -31,6 +31,7 @@ VSD Workshop on Packaging fundamentals on design and testing with labs based on 
 #### [Wire bonding for whole design](#head5_4)
 #### [Mold addition](#head5_5)
 
+### Acknowledgement(#head6)
 ## <a name="head1_1"></a>Packaging Evolution: From Basics to 3D Integration:
 ### <a name="head1_2"></a>Introduction to Packaging and its Requirement
 Packaging is the process of transforming bare semiconductor dies—fabricated on silicon wafers—into robust, functional components that can be mounted onto printed circuit boards (PCBs). It serves as a critical bridge between the microscopic world of silicon and the macroscopic realities of real-world electronics.
@@ -573,13 +574,13 @@ In final step add molding compound on the substrate.
     The extra margin ensures wire bonds are safe after laser marking.
   - Material used: Epoxy_kevlar_xy
 
-![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e10.png)
+![Image](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Images/Pic_e11.png)
 
 *Fig: Final Package with Molding compound added*
 
 [Lab file](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Packaging_VSD_Project_2.aedt)
 
-## Acknowledgement
+## <a name="head6"></a> Acknowledgement
 
 1. Dr. Tarun Kumar Agarwal (IITGN)
 
