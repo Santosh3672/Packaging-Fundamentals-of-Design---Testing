@@ -385,6 +385,8 @@ In our plot we see that die is at higher temperature due to 1W power dissipation
 
 From the plot we can identify regions with high temperature that could be of concern.
 
+[Lab files](https://github.com/Santosh3672/Packaging-Fundamentals-of-Design---Testing/blob/main/Packaging_VSD_project_1.aedt)
+
 ##  <a name="head4_1"></a> Introcudtion to Package testing
 During package testing the electrical, mechanical and thermal aspects of the manufactured Package are checked before using them in the board level.
 
